@@ -5,7 +5,7 @@ library(DT)
 # Data load
 source("data-input.r")
 
-# Define UI for application that draws a histogram
+# Define UI for application
 ui <- fluidPage(
     titlePanel(
         "Cairngorms1: Test App - Renewable Energy Sites in the Highlands"
@@ -31,7 +31,7 @@ ui <- fluidPage(
     )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic
 server <- function(input, output){
 
 observe({
